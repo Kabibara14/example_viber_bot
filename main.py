@@ -14,9 +14,9 @@ from viberbot.api.viber_requests import ViberUnsubscribedRequest
 app = Flask(__name__)
 # сюда нужно вставить инфу со своего бота
 viber = Api(BotConfiguration(
-    name='KnyazBy',
-    avatar='img\korvun1.png',
-    auth_token='4f2b9db754e7e1c5-da559227ed761688-5d0c05b26612b7d1'
+    name='',
+    avatar='',
+    auth_token=''
 ))
 
 viber.set_webhook('ссылка на ваш сервер с ботом')
